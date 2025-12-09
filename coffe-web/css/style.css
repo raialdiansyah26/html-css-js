@@ -52,6 +52,7 @@ body {
   color: #fff;
   display: inline-block;
   margin: 0 1rem;
+  font-size: 1.3rem;
 }
 
 .navbar .navbar-nav a:hover {
@@ -117,7 +118,7 @@ body {
 }
 
 .hero .content h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
@@ -145,6 +146,13 @@ body {
   background-color: var(--primary);
   border-radius: 10px;
   box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.8);
+  transition: 0.3s;
+  border: none;
+}
+
+.cta:hover {
+  transform: scale(1) translate(10px);
+  border: none;
 }
 
 /* about section */
